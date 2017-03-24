@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2016-08-22T14:31:48Z</date>
+	<key>Application Version</key><string>12.4.3.1</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>2EE7826E137BE07F</string>
+	<key>Tracks</key>
+	<dict>
+		<key>5230</key>
+		<dict>
+			<key>Track ID</key><integer>5230</integer>
+			<key>Name</key><string>Son of a Son of a Sailor</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7839010</integer>
+			<key>Total Time</key><integer>205250</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:44:49Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>12</integer>
+			<key>Play Date</key><integer>3538303254</integer>
+			<key>Play Date UTC</key><date>2016-02-14T19:00:54Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-02-14T18:57:29Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>328</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Son of a Son of a Sailor</string>
+			<key>Persistent ID</key><string>E91DEF8ED62D53CD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/01%20Son%20of%20a%20Son%20of%20a%20Sailor.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5232</key>
+		<dict>
+			<key>Track ID</key><integer>5232</integer>
+			<key>Name</key><string>Fool Button</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6408216</integer>
+			<key>Total Time</key><integer>169400</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:44:27Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3538323946</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:45:46Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>904</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Fool Button</string>
+			<key>Persistent ID</key><string>6690AC091634401F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/02%20Fool%20Button.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5234</key>
+		<dict>
+			<key>Track ID</key><integer>5234</integer>
+			<key>Name</key><string>The Last Line</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Keith Sykes</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8426000</integer>
+			<key>Total Time</key><integer>219906</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:44:51Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>11</integer>
+			<key>Play Date</key><integer>3538324593</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:56:33Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>777</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Last Line</string>
+			<key>Persistent ID</key><string>EFEFAAAC1A9C2D66</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/03%20The%20Last%20Line.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5236</key>
+		<dict>
+			<key>Track ID</key><integer>5236</integer>
+			<key>Name</key><string>Livingston Saturday Night</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7365298</integer>
+			<key>Total Time</key><integer>192866</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:45:42Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3538323372</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:36:12Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>1699</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Livingston Saturday Night</string>
+			<key>Persistent ID</key><string>B72A7197123B93F5</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/04%20Livingston%20Saturday%20Night.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5238</key>
+		<dict>
+			<key>Track ID</key><integer>5238</integer>
+			<key>Name</key><string>Cheeseburger in Paradise</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6524686</integer>
+			<key>Total Time</key><integer>175500</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:45:20Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3538323182</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:33:02Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>1339</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Cheeseburger in Paradise</string>
+			<key>Persistent ID</key><string>F63B9C13289FEB7F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/05%20Cheeseburger%20in%20Paradise.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5240</key>
+		<dict>
+			<key>Track ID</key><integer>5240</integer>
+			<key>Name</key><string>Coast of Marseilles</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Keith Sykes</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>10507352</integer>
+			<key>Total Time</key><integer>302933</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:46:29Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3538325409</integer>
+			<key>Play Date UTC</key><date>2016-02-15T01:10:09Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2015-10-21T20:31:59Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>476</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Coast of Marseilles</string>
+			<key>Persistent ID</key><string>08FFEB4B89AA16E7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/06%20Coast%20of%20Marseilles.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5242</key>
+		<dict>
+			<key>Track ID</key><integer>5242</integer>
+			<key>Name</key><string>Cowboy in the Jungle</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11215220</integer>
+			<key>Total Time</key><integer>309000</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:46:57Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3538325106</integer>
+			<key>Play Date UTC</key><date>2016-02-15T01:05:06Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>842</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Cowboy in the Jungle</string>
+			<key>Persistent ID</key><string>06FF580F075609AC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/07%20Cowboy%20in%20the%20Jungle.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5244</key>
+		<dict>
+			<key>Track ID</key><integer>5244</integer>
+			<key>Name</key><string>Mañana</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9686080</integer>
+			<key>Total Time</key><integer>255750</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:46:46Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3538323779</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:42:59Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-02-14T18:57:32Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>960</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>Mañana</string>
+			<key>Persistent ID</key><string>3D35C868989C4D7B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/08%20Man%CC%83ana.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5246</key>
+		<dict>
+			<key>Track ID</key><integer>5246</integer>
+			<key>Name</key><string>African Friend</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Son of a Son of a Sailor</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8920545</integer>
+			<key>Total Time</key><integer>241394</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2014-01-21T23:47:10Z</date>
+			<key>Date Added</key><date>2014-01-21T23:43:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3538322818</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:26:58Z</date>
+			<key>Release Date</key><date>1978-03-01T00:00:00Z</date>
+			<key>Normalization</key><integer>478</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Son of a Son of a Sailor</string>
+			<key>Sort Artist</key><string>Jimmy Buffett</string>
+			<key>Sort Name</key><string>African Friend</string>
+			<key>Persistent ID</key><string>286E7DEAF8EEADB9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/09%20African%20Friend.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5886</key>
+		<dict>
+			<key>Track ID</key><integer>5886</integer>
+			<key>Name</key><string>He Went to Paris</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8022052</integer>
+			<key>Total Time</key><integer>208933</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:36Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3538324800</integer>
+			<key>Play Date UTC</key><date>2016-02-15T01:00:00Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>419</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5B0EDD6715B3936A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/02%20He%20Went%20to%20Paris.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5888</key>
+		<dict>
+			<key>Track ID</key><integer>5888</integer>
+			<key>Name</key><string>Fins</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett, Barry Chance, Thomas Corcoran &#38; Deborah McColl</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7498299</integer>
+			<key>Total Time</key><integer>204500</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:34Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3538324376</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:52:56Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>1079</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>111EE6B3CB3AD65C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/03%20Fins.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5892</key>
+		<dict>
+			<key>Track ID</key><integer>5892</integer>
+			<key>Name</key><string>A Pirate Looks at Forty</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8203457</integer>
+			<key>Total Time</key><integer>230750</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:45Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3538324174</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:49:34Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>1169</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Pirate Looks at Forty</string>
+			<key>Persistent ID</key><string>38CE672E8D0F7E92</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/05%20A%20Pirate%20Looks%20at%20Forty.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5894</key>
+		<dict>
+			<key>Track ID</key><integer>5894</integer>
+			<key>Name</key><string>Margaritaville</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9082833</integer>
+			<key>Total Time</key><integer>248250</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:48Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3538322579</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:22:59Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>554</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6C50DEA92379AC33</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/06%20Margaritaville.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5896</key>
+		<dict>
+			<key>Track ID</key><integer>5896</integer>
+			<key>Name</key><string>Come Monday</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6823326</integer>
+			<key>Total Time</key><integer>188000</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:49Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3538322334</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:18:54Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>559</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8F4BAA36C84DF612</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/07%20Come%20Monday.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5898</key>
+		<dict>
+			<key>Track ID</key><integer>5898</integer>
+			<key>Name</key><string>Changes In Latitudes, Changes In Attitudes</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7072617</integer>
+			<key>Total Time</key><integer>193500</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:53Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3538323009</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:30:09Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>584</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F4A679AD4C3AAFC8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/08%20Changes%20In%20Latitudes,%20Changes%20In%20Attitudes.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5900</key>
+		<dict>
+			<key>Track ID</key><integer>5900</integer>
+			<key>Name</key><string>Why Don't We Get Drunk</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett &#38; Marvin Gardens</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>5946860</integer>
+			<key>Total Time</key><integer>161946</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:22:55Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3538303413</integer>
+			<key>Play Date UTC</key><date>2016-02-14T19:03:33Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>1140</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>ED42E160C1CB4589</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/09%20Why%20Don't%20We%20Get%20Drunk.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5906</key>
+		<dict>
+			<key>Track ID</key><integer>5906</integer>
+			<key>Name</key><string>Boat Drinks</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>5810071</integer>
+			<key>Total Time</key><integer>157173</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:23:02Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3538323526</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:38:46Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>925</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3D0EFB08A7458F48</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/12%20Boat%20Drinks.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5908</key>
+		<dict>
+			<key>Track ID</key><integer>5908</integer>
+			<key>Name</key><string>Volcano</string>
+			<key>Artist</key><string>Jimmy Buffett</string>
+			<key>Album Artist</key><string>Jimmy Buffett</string>
+			<key>Composer</key><string>Jimmy Buffett, Harry Dailey &#38; Keith Sykes</string>
+			<key>Album</key><string>Songs You Know By Heart</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8203216</integer>
+			<key>Total Time</key><integer>218626</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1985</integer>
+			<key>Date Modified</key><date>2014-10-18T16:23:05Z</date>
+			<key>Date Added</key><date>2014-10-18T16:22:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3538322148</integer>
+			<key>Play Date UTC</key><date>2016-02-15T00:15:48Z</date>
+			<key>Release Date</key><date>1985-11-11T08:00:00Z</date>
+			<key>Normalization</key><integer>571</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2EF1EC3F4FCC17E9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/jared/Music/iTunes/iTunes%20Media/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/13%20Volcano.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Buffett</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>29699</integer>
+			<key>Playlist Persistent ID</key><string>6655220441011185</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>5230</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5232</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5234</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5236</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5240</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5242</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5244</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5246</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5886</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5888</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5892</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5894</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5896</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5898</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5900</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5906</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5908</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

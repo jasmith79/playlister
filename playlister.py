@@ -306,7 +306,7 @@ def main(args: Namespace) -> None:
         VERBOSE.append(1)
 
     if args.output_path:
-        opath = FileString(args.output_path).path
+        opath = FileString(trail_slash(args.output_path)).path
     else:
         p = trail_slash(args.target_path) if path.isdir(args.target_path) else args.target_path
         tpath = FileString(p)

@@ -15,8 +15,9 @@ import urllib.request
 import plistlib
 import collections
 import time
+import errno
 
-from os import path, listdir, sep
+from os import path, listdir, sep, makedirs
 from functools import partial
 from typing import List, Dict, Union, Any
 from urllib.parse import unquote, quote
@@ -313,6 +314,14 @@ def main(args: Namespace) -> None:
         opath = tpath.path
 
     results = playlister(args.target_path, args.music_path, args.type)
+
+    # Create the output directory if it doesn't exist
+    try:
+        makedirs(opath)
+    except OSError as e:
+        if e.errno != errno.EEXIST:
+            raise
+            
     for name, contents in results:
         file_path = FileString(opath + name + "." + args.type)
         if contents:

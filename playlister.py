@@ -308,7 +308,7 @@ def main(args: Namespace) -> None:
     if args.output_path:
         opath = FileString(args.output_path).path
     else:
-        p = trail_slash(target_path) if path.isdir(target_path) else target_path
+        p = trail_slash(args.target_path) if path.isdir(args.target_path) else args.target_path
         tpath = FileString(p)
         opath = tpath.path
 

@@ -93,10 +93,10 @@ class FileString(str):
         uri, fpath, fname, ext = match.groups()
 
         # This covers for an inherent but as far as I know unavoidable problem with the regex
-        if not uri and re.match(_STARTS_WITH_WIN_URI, fpath):
-            raise TypeError(
-                "Malformed windows file URI {}.".format(file_path)
-            )
+        # if not uri and re.match(_STARTS_WITH_WIN_URI, fpath):
+        #     raise TypeError(
+        #         "Malformed windows file URI {}.".format(file_path)
+        #     )
 
         # These don't need to be methods because strings are immutable
         file_path.path = fpath
@@ -193,7 +193,7 @@ def load_plist(file_path: FileString) -> Dict[str, Any]:
     try:
         with open(file_path, "rb") as f:
             return plistlib.load(f)
-    except:
+    except Exception as e:
         if VERBOSE:
             print("...not a valid iTunes playlist file. Skipping...")
         return {}
@@ -210,7 +210,11 @@ def replace_music_path(music_path: str, track: Dict[str, str]) -> Dict[str, str]
     """Takes a track record and changes the location to accurately reflect the new
     path instead of the iTunes path."""
     if music_path:
-        track["Location"] = quote(ITUNES_PATH.sub(music_path, unquote(track.get("Location")[7:])))
+        unquoted = unquote(track.get("Location")[7:])
+        subbed = ITUNES_PATH.sub(music_path.replace("\\", "\\\\"), unquoted)
+        quoted = quote(subbed)
+        track["Location"] = quoted
+
     return track
 
 def to_m3u(record: Dict[str, str]) -> str:
@@ -321,14 +325,14 @@ def main(args: Namespace) -> None:
     except OSError as e:
         if e.errno != errno.EEXIST:
             raise
-            
+
     for name, contents in results:
         file_path = FileString(opath + name + "." + args.type)
         if contents:
             if VERBOSE:
                 print("Writing file {}...".format(file_path))
             try:
-                with open(file_path, "w") as f:
+                with open(file_path, "w", encoding="utf-8") as f:
                     f.write(contents)
                 if VERBOSE:
                     print("...done.")

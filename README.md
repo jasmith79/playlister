@@ -24,7 +24,7 @@ file extensions.
 
 ## Installing
 
-Currently, just clone the repo here at GitHub®. If you're on Linux or Mac just cd into the directory and run `sudo ./install.sh` (installs to `/usr/local/bin`). You can of course skip it link the file somewhere else in your $PATH. I will eventually get around to writing a Windows installer.
+Currently, just clone the repo here at GitHub®. If you're on Linux or Mac just cd into the directory and run `./install.sh` (installs to `/usr/local/bin`). You can of course skip it link the file somewhere else in your $PATH. I will eventually get around to writing a Windows installer.
 
 ## Exporting the iTunes® lists
 

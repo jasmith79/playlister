@@ -16,7 +16,7 @@ Mac or Windows is beyond the scope of this document, but not particularly diffic
 
 Possible output formats are .m3u, .m3u8, and .xspf.
 
-* m3u: m3u format, this is the default used by most Android® and many Windows music players.
+* m3u: m3u format, this is the default used by most Android® and many Windows®  music players.
 * m3u8: m3u format but utf-8 encoded. **NOTE:** because of the needs of the Android® players which
 cannot read .m3u8 files, there is no difference between the m3u and m3u8 outputs other than the
 file extensions.
@@ -24,7 +24,11 @@ file extensions.
 
 ## Installing
 
-Currently, just clone the repo here at GitHub®. If you're on Linux or Mac just cd into the directory and run `./install.sh` (installs to `/usr/local/bin`). You can of course skip it link the file somewhere else in your $PATH. I will eventually get around to writing a Windows installer.
+Easiest way currently is to install via [pip](https://pypi.org/project/pip/):
+
+`python3 -m pip install --user git+https://github.com/jasmith79/playlister.git`
+
+which will put the playlister command somewhere on your PATH.
 
 ## Exporting the iTunes® lists
 
@@ -34,8 +38,10 @@ want to convert and put them all in a folder, preferably titled "xml".
 
 ## Using Playlister
 
-Fire up the Terminal app on your platform of choice. 
-type
+Fire up the Terminal app on your platform of choice. **NOTE**: Windows® users should use
+powershell instead of cmd.
+
+Type
 
 `playlister /path/to/exported/itunes/playlists/xml/ -v`
 

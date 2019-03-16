@@ -90,3 +90,11 @@ ENV/
 
 # test output dir
 /output/*
+
+# mypy
+.mypy_cache/
+
+commit-msg.txt
+
+# Sphinx
+doc/build/

@@ -49,20 +49,6 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-local_settings.py
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 target/
 
@@ -95,6 +81,10 @@ ENV/
 .mypy_cache/
 
 commit-msg.txt
+test.py
 
 # Sphinx
 doc/build/
+
+# Auto-generated version file
+playlister/__version__.py

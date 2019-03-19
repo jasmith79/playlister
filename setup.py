@@ -10,7 +10,9 @@ version = subprocess.check_output([
     "--git-dir",
     os.path.join(os.path.dirname(__file__), ".git"),
     "tag"
-]).decode("utf-8").strip()
+]).decode("utf-8").strip().split("\n")[-1]
+
+print("VERSION IS {}".format(version))
 
 url = subprocess.check_output([
     "git",
@@ -20,6 +22,10 @@ url = subprocess.check_output([
     "--get",
     "remote.origin.url"
 ]).decode("utf-8").strip()
+
+# Write the version file:
+with open('./playlister/__version__.py', 'w') as f:
+    f.write("version = \"{}\"".format(version))
 
 setuptools.setup(
     name="playlister-jasmith79",

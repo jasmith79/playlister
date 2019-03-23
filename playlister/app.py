@@ -12,7 +12,7 @@ from time import time
 from datetime import timedelta
 from urllib.parse import unquote, quote
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, Optional, List, Tuple
 from functools import partial
 
 from .cli import parse_args
@@ -24,10 +24,17 @@ from .xspf import to_xspf_track, to_xspf_list
 start = time()
 
 ITUNES_PATH = re.compile(
-    r"[\\/]Users[\\/][\w\.\-]+[\\/]" + # windows and mac both do Users-delimiter-Username
-    r"(?:My )?Music[\\/]iTunes[\\/]" + # windows uses 'My ', mac just Music
-    r"iTunes(?: |%20)Media[\\/]" +     # optionally url encoded
-    r"(?:Music[\\/])"                  # optional Music folder
+    # windows and mac both do Users-delimiter-Username
+    r"[\\/]Users[\\/][\w\.\-]+[\\/]" +
+
+    # windows uses 'My ', mac just Music
+    r"(?:My )?Music[\\/]iTunes[\\/]" +
+
+    # optionally url encoded
+    r"iTunes(?: |%20)Media[\\/]" +
+
+    # optional Music folder
+    r"(?:Music[\\/])"
 )
 
 
@@ -69,7 +76,7 @@ def playlister(
     list_type: str,
     music_path: Optional[Path] = None,
     verbose: Optional[bool] = False
-) -> None:
+) -> List[Tuple[Path, str]]:
     """Main function for altering playlists.
 
         :param target_path: the path to the xml file/directory.
@@ -78,7 +85,7 @@ def playlister(
         :param music_path: the path to the music files, e.g. if converting
             lists meant to be played on another device.
         :param verbose: toggles verbose output.
-        :returns: None
+        :returns: List of tuples in the form (output_filepath, contents)
         :raises: NoTargetPathError, OSError, UnknownOutputFormatError
     """
 
@@ -109,7 +116,7 @@ def playlister(
 
     if music_path:
         conversions.append(
-            partial(replace_music_path, music_path, verbose)
+            partial(replace_music_path, music_path)
         )
 
     if list_type == "m3u" or list_type == "m3u8":
@@ -127,6 +134,7 @@ def playlister(
 
     convert = pipe(load_plist, partial(map, pipe(*conversions)))
 
+    converted = []
     for i, orig_file in enumerate(orig_files):
         if verbose:
             print("Converting {}, {} of {}".format(
@@ -149,34 +157,36 @@ def playlister(
         if verbose:
             print("Converting tracks...")
 
-        converted = convert_list(list_name, convert(orig_file))
+        contents = convert_list(list_name, convert(orig_file))
         if verbose:
             print("done.")
 
-        with new_file.open("w+") as f:
-            if verbose:
-                print("writing to {}...".format(str(new_file)))
+        converted.append((new_file, contents))
 
-            f.write(converted)
-            if verbose:
-                print("done.")
-
-    if verbose:
-        plural = ""
-        if num_files > 1:
-            plural = "s"
-
-        print("All finished. Converted {} file{} in {} seconds".format(
-            num_files,
-            plural,
-            time() - start
-        ))
-
-    return
+    return converted
 
 
 def main():
-    playlister(**parse_args(sys.argv[1:]))
+    cli_args = parse_args(sys.argv[1:])
+    verbose = cli_args["verbose"]
+    converted = playlister(**args)
+    num_files = len(converted)
+
+    for i, data in enumerate(converted):
+        path, contents = data
+        if verbose:
+            print("Writing {} of {}: {}...".format(
+                i + 1,
+                num_files,
+                str(path)
+            ))
+
+        with path.open("w") as f:
+            f.write(contents)
+
+            if verbose:
+                print("done.")
+
     return 0
 
 

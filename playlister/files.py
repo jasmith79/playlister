@@ -8,7 +8,7 @@
 import plistlib
 
 import pathlib
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Tuple
 
 
 def glob_xml_files(directory: pathlib.Path) -> List[pathlib.Path]:
@@ -26,7 +26,7 @@ def glob_xml_files(directory: pathlib.Path) -> List[pathlib.Path]:
         ]
 
     else:
-        raise OSError("Error: {} is not a directory".format(user_path))
+        raise OSError("Error: {} is not a directory".format(directory))
 
 
 def extract_tracks(plist: Dict) -> List[Dict[str, str]]:
@@ -36,7 +36,9 @@ def extract_tracks(plist: Dict) -> List[Dict[str, str]]:
         :returns: a list of the extracted track records.
     """
     try:
-        ordering = [str(a["Track ID"]) for a in plist["Playlists"][0]["Playlist Items"]]
+        ordering = [
+            str(a["Track ID"]) for a in plist["Playlists"][0]["Playlist Items"]
+        ]
         return [plist["Tracks"][track_id] for track_id in ordering]
 
     except KeyError:
@@ -65,6 +67,4 @@ def load_plist(
     except Exception as e:
         if verbose:
             print("...not a valid iTunes playlist file. Skipping...")
-        return {}
-
-
+        return []

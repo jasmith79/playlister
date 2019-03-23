@@ -11,12 +11,7 @@ from argparse import ArgumentParser, ArgumentError
 from typing import List, Dict, Optional
 from pathlib import Path
 
-version = subprocess.check_output([
-    "git",
-    "--git-dir",
-    os.path.join("..", ".git"),
-    "tag"
-]).decode("utf-8").strip()
+from .__version__ import version
 
 
 def init_default_parser() -> ArgumentParser:

@@ -15,11 +15,11 @@ from pathlib import Path
 from typing import Dict, Optional, List, Tuple
 from functools import partial
 
-from .cli import parse_args
-from .files import glob_xml_files, load_plist
-from .playlister_utils import pipe
-from .m3u import to_m3u_track, to_m3u_list
-from .xspf import to_xspf_track, to_xspf_list
+from cli import parse_args
+from files import glob_xml_files, load_plist
+from playlister_utils import pipe
+from m3u import to_m3u_track, to_m3u_list
+from xspf import to_xspf_track, to_xspf_list
 
 start = time()
 
@@ -62,10 +62,16 @@ def replace_music_path(
         :returns: the updated track record.
     """
 
+    # unquoted = unquote(track.get("Location", "")[7:]) + os.path.sep
+    # subbed = ITUNES_PATH.sub(str(music_path).replace("\\", "\\\\"), unquoted)
+    # quoted = quote(subbed)
+    # track["Location"] = quoted
+
+    # Android doesn't like file urls, chop file://
     unquoted = unquote(track.get("Location", "")[7:])
-    subbed = ITUNES_PATH.sub(str(music_path).replace("\\", "\\\\"), unquoted)
-    quoted = quote(subbed)
-    track["Location"] = quoted
+    oldPath = re.sub(ITUNES_PATH, "", unquoted)
+    newPath = os.path.join(music_path, oldPath)
+    track["Location"] = quote(str(newPath))
 
     return track
 
@@ -169,7 +175,7 @@ def playlister(
 def main():
     cli_args = parse_args(sys.argv[1:])
     verbose = cli_args["verbose"]
-    converted = playlister(**args)
+    converted = playlister(**cli_args)
     num_files = len(converted)
 
     for i, data in enumerate(converted):

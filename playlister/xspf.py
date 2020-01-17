@@ -9,7 +9,7 @@ from unicodedata import normalize as uni_norm
 from xml.sax.saxutils import escape as esc_xml
 from typing import Dict, List
 
-from .playlister_utils import pipe, normalize
+from playlister_utils import pipe, normalize
 
 escape_xspf_path = pipe(unquote, normalize, quote, esc_xml)
 

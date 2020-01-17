@@ -11,7 +11,7 @@ from argparse import ArgumentParser, ArgumentError
 from typing import List, Dict, Optional
 from pathlib import Path
 
-from .__version__ import version
+from __version__ import version
 
 
 def init_default_parser() -> ArgumentParser:

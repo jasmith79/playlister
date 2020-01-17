@@ -7,7 +7,7 @@
 from urllib.parse import unquote
 from typing import Dict, List
 
-from .playlister_utils import normalize
+from playlister_utils import normalize
 
 M3U_TEMPLATE = """#EXTM3U
 #name={name}
@@ -36,7 +36,7 @@ def to_m3u_track(record: Dict[str, str]) -> str:
         record.get("Album Artist") or
         record.get("Composer", "")
     ))
-
+    # print("Location {}".format(location))
     return M3U_TRACK_TEMPLATE.format(
         length=duration,
         artist=artist,

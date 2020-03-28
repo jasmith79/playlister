@@ -25,6 +25,10 @@ url = subprocess.check_output([
     "remote.origin.url"
 ]).decode("utf-8").strip()
 
+# Write the version file:
+with open('./playlister/__version__.py', 'w') as f:
+    f.write("version = \"{}\"".format(version))
+
 setuptools.setup(
     name="playlister-jasmith79",
     version=version,

@@ -92,6 +92,7 @@ ENV/
 .mypy_cache/
 
 commit-msg.txt
+test.py
 
 # Sphinx
 doc/build/

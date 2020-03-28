@@ -1,131 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<playlist version="1" xmlns="http://xspf.org/ns/0/">
-	<trackList>
-		<track>
-			<title>Son of a Son of a Sailor</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/01%20Son%20of%20a%20Son%20of%20a%20Sailor.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>205250</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>Fool Button</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/02%20Fool%20Button.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>169400</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>The Last Line</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/03%20The%20Last%20Line.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>219906</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>Livingston Saturday Night</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/04%20Livingston%20Saturday%20Night.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>192866</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>Cheeseburger in Paradise</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/05%20Cheeseburger%20in%20Paradise.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>175500</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>Coast of Marseilles</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/06%20Coast%20of%20Marseilles.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>302933</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>Cowboy in the Jungle</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/07%20Cowboy%20in%20the%20Jungle.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>309000</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>Mañana</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/08%20Ma%C3%B1ana.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>255750</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>African Friend</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/09%20African%20Friend.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>241394</duration>
-			<album>Son of a Son of a Sailor</album>
-		</track>
-		<track>
-			<title>He Went to Paris</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/02%20He%20Went%20to%20Paris.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>208933</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Fins</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/03%20Fins.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>204500</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>A Pirate Looks at Forty</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/05%20A%20Pirate%20Looks%20at%20Forty.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>230750</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Margaritaville</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/06%20Margaritaville.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>248250</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Come Monday</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/07%20Come%20Monday.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>188000</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Changes In Latitudes, Changes In Attitudes</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/08%20Changes%20In%20Latitudes%2C%20Changes%20In%20Attitudes.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>193500</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Why Don't We Get Drunk</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/09%20Why%20Don%27t%20We%20Get%20Drunk.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>161946</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Boat Drinks</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/12%20Boat%20Drinks.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>157173</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-		<track>
-			<title>Volcano</title>
-			<location>file:///home/jsmith/MusicJimmy%20Buffett/Songs%20You%20Know%20By%20Heart/13%20Volcano.m4a</location>
-			<creator>Jimmy Buffett</creator>
-			<duration>218626</duration>
-			<album>Songs You Know By Heart</album>
-		</track>
-	</trackList>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/01%20Son%20of%20a%20Son%20of%20a%20Sailor.m4a</location>
+      <title>Son of a Son of a Sailor</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>205250</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/02%20Fool%20Button.m4a</location>
+      <title>Fool Button</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>169400</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/03%20The%20Last%20Line.m4a</location>
+      <title>The Last Line</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>219906</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/04%20Livingston%20Saturday%20Night.m4a</location>
+      <title>Livingston Saturday Night</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>192866</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/05%20Cheeseburger%20in%20Paradise.m4a</location>
+      <title>Cheeseburger in Paradise</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>175500</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/06%20Coast%20of%20Marseilles.m4a</location>
+      <title>Coast of Marseilles</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>302933</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/07%20Cowboy%20in%20the%20Jungle.m4a</location>
+      <title>Cowboy in the Jungle</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>309000</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/08%20Ma%C3%B1ana.m4a</location>
+      <title>Mañana</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>255750</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Son%20of%20a%20Son%20of%20a%20Sailor/09%20African%20Friend.m4a</location>
+      <title>African Friend</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Son of a Son of a Sailor</album>
+      <duration>241394</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/02%20He%20Went%20to%20Paris.m4a</location>
+      <title>He Went to Paris</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>208933</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/03%20Fins.m4a</location>
+      <title>Fins</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>204500</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/05%20A%20Pirate%20Looks%20at%20Forty.m4a</location>
+      <title>A Pirate Looks at Forty</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>230750</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/06%20Margaritaville.m4a</location>
+      <title>Margaritaville</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>248250</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/07%20Come%20Monday.m4a</location>
+      <title>Come Monday</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>188000</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/08%20Changes%20In%20Latitudes%2C%20Changes%20In%20Attitudes.m4a</location>
+      <title>Changes In Latitudes, Changes In Attitudes</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>193500</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/09%20Why%20Don%27t%20We%20Get%20Drunk.m4a</location>
+      <title>Why Don't We Get Drunk</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>161946</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/12%20Boat%20Drinks.m4a</location>
+      <title>Boat Drinks</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>157173</duration>
+    </track>
+    <track>
+      <location>file:///home/jsmith/Music/Jimmy%20Buffett/Songs%20You%20Know%20By%20Heart/13%20Volcano.m4a</location>
+      <title>Volcano</title>
+      <creator>Jimmy Buffett</creator>
+      <album>Songs You Know By Heart</album>
+      <duration>218626</duration>
+    </track>
+  </trackList>
 </playlist>

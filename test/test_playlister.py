@@ -23,14 +23,13 @@ with open(os.path.join(resource_dir, "Buffett.xspf")) as f:
 
 
 class TestPlaylister(object):
-    """"""
 
     def test_m3u(self):
         args = [
             resource_dir,
             "-t", "m3u",
             "-o", resource_dir,
-            "-m", os.path.join("home", "jsmith", "Music")
+            "-m", os.path.join(os.path.sep, "home", "jsmith", "Music")
         ]
 
         path, contents = playlister.playlister(**cli.parse_args(args))[0]
@@ -42,7 +41,7 @@ class TestPlaylister(object):
             resource_dir,
             "-t", "xspf",
             "-o", resource_dir,
-            "-m", os.path.join("home", "jsmith", "Music")
+            "-m", os.path.join(os.path.sep, "home", "jsmith", "Music")
         ]
 
         path, contents = playlister.playlister(**cli.parse_args(args))[0]

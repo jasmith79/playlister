@@ -7,7 +7,7 @@
 from urllib.parse import unquote
 from typing import Dict, List
 
-from playlister_utils import normalize
+from playlister.playlister_utils import normalize
 
 M3U_TEMPLATE = """#EXTM3U
 #name={name}

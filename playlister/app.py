@@ -15,11 +15,11 @@ from pathlib import Path
 from typing import Dict, Optional, List, Tuple
 from functools import partial
 
-from cli import parse_args
-from files import glob_xml_files, load_plist
-from playlister_utils import pipe
-from m3u import to_m3u_track, to_m3u_list
-from xspf import to_xspf_track, to_xspf_list
+from playlister.cli import parse_args
+from playlister.files import glob_xml_files, load_plist
+from playlister.playlister_utils import pipe
+from playlister.m3u import to_m3u_track, to_m3u_list
+from playlister.xspf import to_xspf_track, to_xspf_list
 
 start = time()
 

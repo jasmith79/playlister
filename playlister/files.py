@@ -57,14 +57,14 @@ def load_plist(
     """
 
     if verbose:
-        print("Reading...".format(file.resolve()))
+        print("Reading {}...".format(file.resolve()))
     try:
         with file.open("rb") as f:
             return extract_tracks(plistlib.load(f))
 
     # Don't care here what the problem is: if the file doesn't exist
     # or isn't the right format, either way can't do anything useful.
-    except Exception as e:
+    except Exception:
         if verbose:
             print("...not a valid iTunes playlist file. Skipping...")
         return []

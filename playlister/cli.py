@@ -11,7 +11,8 @@ from argparse import ArgumentParser, ArgumentError
 from typing import List, Dict, Optional
 from pathlib import Path
 
-from __version__ import version
+# from __version__ import version
+__version__ = "1.1.0"
 
 
 def init_default_parser() -> ArgumentParser:
@@ -20,6 +21,7 @@ def init_default_parser() -> ArgumentParser:
         :returns: an ArgumentParser with the default options.
     """
 
+    version = "1.1.0"
     parser = ArgumentParser()
     parser.add_argument(
         "target_path",

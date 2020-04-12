@@ -6,10 +6,14 @@ reasonably expect users to know how to navigate the filesystem, discovering for 
 path to where their music files are stored, etc. etc. If you're a more advanced computer user, just
 use the `-h` or `--help` flags to see the usage.
 
+## Note About Catalina:
+
+In the latest version of MacOS dubbed Catalina, iTunes® has been replaced with the new Music app. This will not work on playlists created by Music, and it doesn't have to: the new Music app includes the ability to export to m3u or m3u8. But if you can't afford a new Mac and/or don't want to upgrade (like if you can't lose 32-bit support) hopefully you might find this useful. If using that export option on Catalina I highly recommend that you choose m3u8 and rename the file extension to m3u as many music players seem to ignore m3u8 files but will happily accept m3u files with unicode in them and do the right thing.
+
 ## Requirements
 
-Requires Python 3.5+. If you are on the current Ubuntu LTS (16.04) or any of its derivatives you
-likely meet this requirement. Any other linux distros will have to check. Installing Python on
+Requires Python 3.5+. If you are on the current Ubuntu LTS (20.04) or any of its derivatives you
+likely meet this requirement. Any other linux distros will have to check. Installing Python 3 on
 Mac or Windows is beyond the scope of this document, but not particularly difficult.
 
 ## Formats
@@ -38,10 +42,10 @@ want to convert and put them all in a folder, preferably titled "xml".
 
 ## Using Playlister
 
-Fire up the Terminal app on your platform of choice. **NOTE**: Windows® users should use
-powershell instead of cmd.
+Fire up the Terminal on your platform of choice. **NOTE**: Windows® users should use
+powershell instead of cmd: I tried to get unicode working properly on cmd, I really did, but alas it was not worth the time investment when it works out-of-the-box in powershell.
 
-Type
+Then type
 
 `playlister /path/to/exported/itunes/playlists/xml/ -v`
 
@@ -58,3 +62,5 @@ browser to figure it out. Once you've got it, add the following to the command a
 and run it again. To change the output to m3u8 or xspf add `-t m3u8` or `-t xspf`. To specify where
 the converted playlists are written to you can specify an output path like `-o ~/Desktop/Playlists/`
 and it shall be done.
+
+**All trademarks are property of their respective owners.**

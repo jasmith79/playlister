@@ -1,14 +1,14 @@
-# Playlister
+# NOTE
+
+At some point, not sure when, an update gave iTunes the ability to export to m3u/m3u8 format, making this program superfluous. I'm not archiving it, yet, but I probably will be slow to respond to issues or feature requests.
+
+# Playlister 
 
 A utility for converting iTunes® playlists to various open formats. Note, although the usage tutorial
 below tries to be as hand-holdy as possible (possibly to the point of being obnoxious about it), I
 reasonably expect users to know how to navigate the filesystem, discovering for instance the full
 path to where their music files are stored, etc. etc. If you're a more advanced computer user, just
 use the `-h` or `--help` flags to see the usage.
-
-## Note About Catalina:
-
-In the latest version of MacOS dubbed Catalina, iTunes® has been replaced with the new Music app. This will not work on playlists created by Music, and it doesn't have to: the new Music app includes the ability to export to m3u or m3u8. But if you can't afford a new Mac and/or don't want to upgrade (like if you can't lose 32-bit support) hopefully you might find this useful. If using that export option on Catalina I highly recommend that you choose m3u8 and rename the file extension to m3u as many music players seem to ignore m3u8 files but will happily accept m3u files with unicode in them and do the right thing.
 
 ## Requirements
 

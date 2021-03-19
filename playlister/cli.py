@@ -1,6 +1,6 @@
 """
 .. py:module:: cli
-    :platform: Unix, Windows
+    :platform: *nix, Windows
     :synopsis: Defines the command-line interface for the playlister utility.
 """
 

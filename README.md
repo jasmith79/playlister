@@ -1,6 +1,6 @@
 # NOTE
 
-At some point, not sure when, an update gave iTunes the ability to export to m3u/m3u8 format, making this program superfluous. I'm not archiving it, yet, but I probably will be slow to respond to issues or feature requests.
+At some point, not sure when, an update gave iTunes the ability to export to m3u/m3u8 format, making this program superfluous. I'm not archiving it, yet, but I probably will be slow to respond to issues or feature requests. However, since Apple only lets you export one list at a time, and if you (like me) have 50+ playlists that you use and update all the time, I [wrote a program](https://github.com/jasmith79/playlistrs) that will extract all of your playlists from your exported library!
 
 # Playlister 
 
